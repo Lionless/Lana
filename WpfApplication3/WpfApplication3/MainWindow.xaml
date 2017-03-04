@@ -1,0 +1,13 @@
+﻿<Window x:Class="WpfApplication3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplication3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Button x:Name="Butt1" Margin="139,168,165,90" Click="Butt1_Click"></Button>
+        <TextBox x:Name="TBox" Margin="115,96,144,155" Background="#FF95CCF1" TextChanged="TBox_TextChanged"></TextBox>
+    </Grid>
+</Window>
