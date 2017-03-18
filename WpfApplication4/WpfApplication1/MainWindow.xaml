@@ -75,9 +75,9 @@
                     <ColumnDefinition  Width="194*"/>
                 </Grid.ColumnDefinitions>
 
-                <Button x:Name="button2" Content="Добавить нового студента" Margin="10,36,33,43" Grid.Column="0" MinWidth="155" MinHeight="36" MaxHeight="105" MaxWidth="275"/>
-                <Button x:Name="button3" Content="Редактировать студента" Margin="10,36,17,43" Grid.Column="1" MinWidth="155" MinHeight="36" MaxHeight="105" MaxWidth="275"/>
-                <Button x:Name="button4" Content="Удалить студента" Margin="10,36,28,43" Grid.Column="2" MinWidth="155" MinHeight="36" MaxHeight="105" MaxWidth="275"/>
+                <Button x:Name="button2" Content="Добавить нового студента" Margin="10,36,33,43" Grid.Column="0" MinWidth="155" MinHeight="36" MaxHeight="70" MaxWidth="200"/>
+                <Button x:Name="button3" Content="Редактировать студента" Margin="10,36,17,43" Grid.Column="1" MinWidth="155" MinHeight="36" MaxHeight="70" MaxWidth="200"/>
+                <Button x:Name="button4" Content="Удалить студента" Margin="10,36,28,43" Grid.Column="2" MinWidth="155" MinHeight="36" MaxHeight="70" MaxWidth="200"/>
             </Grid>
 
 
