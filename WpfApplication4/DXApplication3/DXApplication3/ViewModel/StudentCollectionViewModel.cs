@@ -35,10 +35,15 @@ namespace DXApplication3.ViewModel
 
         }
         [Command]
-        public void StudentOnExpullsion(Model.Student stud) {
-           var S= StudentList.Single(w => w.Id == stud.Id);
-            StudentList.Remove(S);
-            ExpilliedStudentList.Add(new Model.ExpilledStudent());
+        public void StudentOnExpullsion(Model.Student stud)
+        {   
+            ExpilliedStudentList.Add(new Model.ExpilledStudent {
+
+            Name = stud.Name,
+            Id = stud.Id,
+            IsExpilled = stud.IsExpilled,
+            MobileNumber = stud.MobileNumber});
+            StudentList.Remove(stud);
 
         }
     }
